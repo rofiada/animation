@@ -1,0 +1,66 @@
+body{
+    width: 100vw;
+    background-image:url(../imges/landscape-illustration-pyramid-digital-art-wallpaper-preview.jpg);
+    background-size: cover;
+
+
+}
+
+
+.div1{
+    width: 200px;
+    height: 250px;
+    margin: 0 5px;
+   background-image: url(../imges/side-view-man-walking-forward-260nw-1050642956.webp);
+   border-radius: 50%;
+   animation-name:change;
+   animation-duration: 9s;
+   position: absolute;
+}
+.div2{
+    width: 400px;
+    height:  250px;
+    margin: 0 5px;
+   background-image: url(../imges/stock-vector-cartoon-arab-man-riding-a-camel-trough-the-dessert-vector-illustration-149834129.jpg);
+   background-size: cover;
+   animation-name:change2;
+   border-radius: 50%;
+   animation-duration: 3s;
+   position: absolute;
+  animation-duration: reverse;
+   top: 300px;
+   left: 55rem;
+   animation-delay: 12s;
+
+}
+.div3{
+    animation-name: change3;
+    position: absolute;
+    top: 600px;
+    left: 60rem;
+    width: 200px;
+    background-size: cover;
+    height: 400px;
+    background-image: url(../imges/382-3824865_walking-man-young-free-photo-cartoon-man-walking.png);
+    animation-duration: reverse;
+    animation-duration: 17s;
+    border-radius: 40%;
+    animation-delay: 20s;
+}
+
+
+
+@keyframes change{
+from{ left: 0;                                            }
+to{   left: 70%;                                             }
+}
+
+@keyframes change2{
+    from{ left: 75%;}
+    to{left: 0;}
+
+}
+@keyframes change3{
+    from{    left: 75%;}
+to{ left: 0;}
+}
